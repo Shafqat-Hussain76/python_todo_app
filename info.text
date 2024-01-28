@@ -1,0 +1,26 @@
+create a folder
+activate envoirment
+
+pip install sqlalchemy
+pip install pydantic
+pip install psycopg2-binary
+
+*********
+database.py
+*************
+we need 3 things engine,Base and SessionLocal----- see database.py
+
+*****************
+models.py
+****************
+import Base and make a class related to Table
+
+****************
+Scemas.py
+**************
+use pydantic and define the types
+
+******************
+crud.py
+*************
+import models and scemas
